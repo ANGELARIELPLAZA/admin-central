@@ -1,0 +1,25 @@
+# Dependencias instaladas por npm
+node_modules/
+
+# Archivos de registro
+logs/
+*.log
+
+# Archivos generados automáticamente
+dist/
+build/
+*.pid
+*.lock
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de configuración de editor
+.vscode/
+*.swp
+
+# Archivos de configuración de sistema operativo
+.DS_Store
+Thumbs.db
