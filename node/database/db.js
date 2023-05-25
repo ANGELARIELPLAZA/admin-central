@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-const url = 'mongodb://admin:TghTvhROx1cH5@192.168.0.102:27017/'
+const url = 'mongodb://localhost:27017/myapp'
 mongoose.connect(url)
 
 const db = mongoose.connection
